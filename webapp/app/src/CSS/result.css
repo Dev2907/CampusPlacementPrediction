@@ -1,0 +1,18 @@
+.accuracy {
+  font-size: 15px;
+}
+.chart-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.respage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  box-sizing: border-box;
+  width: auto;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #136f63, #22aaa1);
+  display: flex;
+}

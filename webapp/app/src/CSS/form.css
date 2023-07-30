@@ -1,0 +1,52 @@
+.page {
+  background-color: #fffffc;
+  margin: auto;
+  width: 60%;
+  height: 90%;
+  border-radius: 20px;
+}
+.formhead {
+  text-align: center;
+  font-size: 25px;
+  color: #447e31;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+
+form > div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+form > div > div {
+  flex: 1;
+  font-size: 15px;
+}
+form > div > div > div {
+  display: flex;
+  flex-direction: column;
+}
+select {
+  width: 90%;
+  padding: 10px;
+}
+input {
+  width: 90%;
+  background-color: #e9e9ed;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.subbutton {
+  display: flex;
+  justify-self: center;
+}
+.subbutton > button {
+  font-size: 15px;
+  padding: 10px;
+}
